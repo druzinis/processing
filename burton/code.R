@@ -23,7 +23,7 @@ if (keisti.i.tarpa!="") d <- gsub(paste0("[", keisti.i.tarpa, "]"), " ", d)
 if (keisti.i.nieka!="") d <- gsub(paste0("[", keisti.i.nieka, "]"), "", d)
 
 d <- gsub("\\[[0-9]*\\]", "", d)
-d <- gsub("[\\']", "", d)
+d <- gsub("[\\']", " ", d)
 d <- gsub("[\\(]", "", d)
 d <- gsub("[\\)]", "", d)
 d <- gsub("[\\[]", "", d)
@@ -40,5 +40,8 @@ d <- tolower(d)
 u <- table(d)
 
 result <- data.frame(id=1:length(u), zodis=names(u), skaicius=as.data.frame(u)$Freq)
+
+# Kill numbers
+result <- result[!grepl("^[0-9]*$", result$zodis), ]
 
 write.csv(result, failas, row.names=FALSE)
