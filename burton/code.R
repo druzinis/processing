@@ -1,6 +1,6 @@
 # Inputai
 tekstas <- "http://www.gutenberg.org/cache/epub/10800/pg10800.txt"
-skaityti.nuo <- 114
+skaityti.nuo <- 83
 skaityti.iki <- 43521 #abu imtinai
 
 # Taisymai
