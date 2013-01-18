@@ -2,7 +2,7 @@
 float triuksmas = 5; 
 
 void setup() {
-  size(800, 400);
+  size(800, 800);
   background(51);
   noLoop();
   stroke(255, 255, 255);
@@ -11,6 +11,7 @@ void setup() {
 void draw() {
   println("ispaisyta blyne " + drawCircles(10, 17, 200, 200)); 
   println("ispaisyta kvadrate " + drawGrid(10, 360, 600, 200));
+  println("ispaisyta visiskai atsiktinai " + drawRandom(2000, 400, 600, 760, 380));
 }
 
 int drawCircles(float dist, int number, float centre_x, float centre_y) {
@@ -40,4 +41,11 @@ int drawGrid(float dist, float side, float centre_x, float centre_y) {
     }
   }
   return(round(pow(number, 2)));
+}
+
+int drawRandom(int num, float centre_x, float centre_y, float m_width, float m_height) {
+  for (int i = 0; i < num; i++) {
+    point(random(centre_x - m_width / 2, centre_x + m_width / 2), random(centre_y - m_height / 2, centre_y + m_height / 2));
+  }
+  return(num);
 }
