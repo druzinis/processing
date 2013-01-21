@@ -56,4 +56,4 @@ int remelioAlpha = 255;
 
 // Profilaktika (ar spausdinti info i konsole?)
 boolean verbose = true; 
-int kiekZodziu = 0;
+int kiekZodziu = 500;
