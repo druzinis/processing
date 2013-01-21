@@ -5,8 +5,8 @@
 // Dydis
 float plotis = 118 / 2.54 * 72;
 float aukstis = 118 / 2.54 * 72;
-// 1 metras / 2.54cm/colį * 72 pixels/colis = 2835
-int parastes = 10;
+//  pixels = x cm / 2.54cm/colį * 72 pixels/colis
+int parastes = 5 / 2.54 * 72;
 
 // Dydžių transformacija
 float laipsnis = 0.2;
@@ -17,11 +17,10 @@ boolean sukti = false;
 
 // Randomisation
 boolean orderly = true; 
-float triuksmas = 0; 
+float triuksmas = 1 / 2.54 * 72; 
 
 // Rate?
 boolean pieskRate = true;
-float spindulys = aukstis / 2 - parastes;
 
 // Šriftai             
 int fontMin = 5, fontMax = 100; 

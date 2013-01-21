@@ -12,6 +12,7 @@ float[] numSpalva;
 float iks; 
 float ygrek;
 float laipsnisSukimuisi;
+float spindulys = aukstis / 2 - parastes;
 
 void setup() 
 {  
