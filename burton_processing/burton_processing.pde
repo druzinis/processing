@@ -6,7 +6,7 @@
 float plotis = 118 / 2.54 * 72;
 float aukstis = 118 / 2.54 * 72;
 //  pixels = x cm / 2.54cm/colį * 72 pixels/colis
-int parastes = 5 / 2.54 * 72;
+float parastes = 5 / 2.54 * 72;
 
 // Dydžių transformacija
 float laipsnis = 0.2;
@@ -52,6 +52,7 @@ String pavadinimas = "Burton_118x118_2-100pt_10px_0-2_25-200alpha_variantas1.pdf
 // Rėmukas
 int remelioSpalva = 200; 
 int remelioAlpha = 255; 
+float remelioParaste = 1 / 2.54 * 72;
 
 // Profilaktika (ar spausdinti info i konsole?)
 boolean verbose = true; 

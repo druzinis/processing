@@ -23,7 +23,7 @@ void setup()
   strokeWeight(.25);
   noFill(); 
   rect(0, 0, plotis, aukstis);
-  ellipse(plotis/2, aukstis/2, plotis, aukstis);
+  ellipse(plotis/2, aukstis/2, plotis - remelioParaste*2, aukstis - remelioParaste*2);
   noLoop();
   String[] lines = loadStrings(duomenys);
   int l = kiekZodziu;
