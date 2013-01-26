@@ -12,12 +12,28 @@ trinti.eilutes.kai.prasideda <- "\\("
 # Outout
 failas <- "burton.csv"
 ##############################################################################
+library(stringr)
+nbsp <- "nonbreakingspc"
 
 # Import book
-d <- scan(tekstas, "character", sep="\n")[skaityti.nuo:skaityti.iki]
+source.text <- scan(tekstas, "character", sep="\n")[skaityti.nuo:skaityti.iki]
 
 # Clean-up
-d <- d[-grep(paste0("^", trinti.eilutes.kai.prasideda), d)]
+d <- source.text[-grep(paste0("^", trinti.eilutes.kai.prasideda), source.text)]
+
+d <- paste(d, collapse=" ")
+d <- gsub(" +", " ", d)
+
+d <- tolower(d)
+
+## Non-breaking space exceptions
+
+d <- gsub("democritus junior", "democritusnbspjunior", d)
+# str_locate_all(d, "democritusnbspjunior")
+# str_match_all(d, " st\\. ([a-z]+)")
+
+d <- gsub(" st\\. ([a-z]+)", " stnbsp\\1", d)
+# str_match_all(d, "stnbsp")
 
 if (keisti.i.tarpa!="") d <- gsub(paste0("[", keisti.i.tarpa, "]"), " ", d)
 if (keisti.i.nieka!="") d <- gsub(paste0("[", keisti.i.nieka, "]"), "", d)
@@ -31,11 +47,10 @@ d <- gsub("[]]", "", d)
 
 # Make dictionary
 
-d <- sapply(d, strsplit, " ")
+d <- strsplit(d, " ")
 d <- unlist(d, use.names=FALSE)
 d <- d[-match("", d)]
 d <- d[sapply(d, nchar)!=0]
-d <- tolower(d)
 
 u <- table(d)
 
@@ -43,5 +58,24 @@ result <- data.frame(id=1:length(u), zodis=names(u), skaicius=as.data.frame(u)$F
 
 # Kill numbers
 result <- result[!grepl("^[0-9]*$", result$zodis), ]
+
+# Restore non breaking spaces
+
+result$zodis <- gsub("democritusnbspjunior", "Democritus Junior", result$zodis)
+
+# str_locate_all(result$zodis, "stnbsp")
+
+saints <- grepl("stnbsp", result$zodis)
+saints.names <- result$zodis[saints]
+saints.names <- paste0("St. ", 
+                       toupper(sapply(str_match_all(saints.names, "stnbsp(\\w)"), 
+                                      function(x) x[1, 2])), 
+                       sapply(str_match_all(saints.names, "stnbsp(\\w)(\\w+)"), 
+                              function(x) x[1, 3]))
+result$zodis[saints] <- saints.names
+
+# result$zodis <- gsub("stnbsp([a-z])([a-z]+)", "St. \\l\\1\\2", result$zodis)
+
+result$zodis[grepl("^St", result$zodis)]
 
 write.csv(result, failas, row.names=FALSE)
