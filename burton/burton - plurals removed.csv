@@ -376,7 +376,6 @@
 "husband",132,"husband",86,"husbands",46
 "omne",132,"omne",21,"omnes",111
 "wind",132,"wind",99,"winds",33
-"austin",131,"",0,"",0
 "labour",131,"labour",89,"labours",42
 "small",131,"",0,"",0
 "till",131,"till",130,"tills",1
@@ -391,7 +390,6 @@
 "jupiter",128,"jupiter",127,"jupiters",1
 "lucian",128,"lucian",127,"lucians",1
 "medicine",128,"medicine",47,"medicines",81
-"st",128,"",0,"",0
 "occasion",127,"occasion",82,"occasions",45
 "run",127,"run",98,"runs",29
 "seen",126,"",0,"",0
@@ -414,6 +412,7 @@
 "money",120,"money",118,"moneys",2
 "seek",120,"seek",103,"seeks",17
 "sort",120,"sort",78,"sorts",42
+"austin",119,"",0,"",0
 "brought",119,"",0,"",0
 "counsel",119,"counsel",105,"counsels",14
 "grace",119,"grace",89,"graces",30
@@ -554,7 +553,6 @@
 "sudden",92,"",0,"",0
 "base",91,"",0,"",0
 "dance",90,"dance",87,"dances",3
-"democritus",90,"",0,"",0
 "evil",90,"evil",88,"evils",2
 "folly",90,"",0,"",0
 "near",90,"",0,"",0
@@ -595,6 +593,7 @@
 "soldier",84,"soldier",28,"soldiers",56
 "went",84,"",0,"",0
 "worth",84,"",0,"",0
+"democritus",83,"",0,"",0
 "hic",83,"",0,"",0
 "myself",83,"",0,"",0
 "people",83,"",0,"",0
@@ -708,7 +707,6 @@
 "hair",71,"hair",60,"hairs",11
 "hundred",71,"hundred",67,"hundreds",4
 "jealous",71,"",0,"",0
-"john",71,"",0,"",0
 "late",71,"",0,"",0
 "offence",71,"offence",51,"offences",20
 "bath",70,"bath",23,"baths",47
@@ -766,6 +764,7 @@
 "apt",65,"",0,"",0
 "brother",65,"brother",52,"brothers",13
 "grave",65,"grave",50,"graves",15
+"john",65,"",0,"",0
 "lay",65,"lay",61,"lays",4
 "learned",65,"",0,"",0
 "magi",65,"magi",7,"magis",58
@@ -945,7 +944,6 @@
 "garden",52,"garden",24,"gardens",28
 "guianerius",52,"",0,"",0
 "infirmities",52,"",0,"",0
-"paul",52,"paul",51,"pauls",1
 "prodigious",52,"",0,"",0
 "prophet",52,"prophet",25,"prophets",27
 "saint",52,"saint",27,"saints",25
@@ -1032,6 +1030,7 @@
 "month",48,"month",14,"months",34
 "morbi",48,"morbi",25,"morbis",23
 "patience",48,"",0,"",0
+"paul",48,"paul",47,"pauls",1
 "perform",48,"perform",43,"performs",5
 "proud",48,"",0,"",0
 "quiet",48,"",0,"",0
@@ -1168,7 +1167,6 @@
 "sufficiently",43,"",0,"",0
 "terror",43,"terror",20,"terrors",23
 "thick",43,"",0,"",0
-"thomas",43,"",0,"",0
 "title",43,"title",15,"titles",28
 "vapour",43,"vapour",8,"vapours",35
 "vision",43,"vision",10,"visions",33
@@ -1347,6 +1345,7 @@
 "sir",37,"",0,"",0
 "soli",37,"soli",17,"solis",20
 "tempest",37,"tempest",17,"tempests",20
+"thomas",37,"",0,"",0
 "trade",37,"trade",17,"trades",20
 "usually",37,"",0,"",0
 "witches",37,"",0,"",0
@@ -1437,7 +1436,6 @@
 "folk",34,"folk",1,"folks",33
 "forma",34,"forma",33,"formas",1
 "gain",34,"gain",29,"gains",5
-"gregory",34,"",0,"",0
 "learn",34,"learn",32,"learns",2
 "morning",34,"morning",33,"mornings",1
 "nobis",34,"",0,"",0
@@ -1487,8 +1485,8 @@
 "genus",33,"",0,"",0
 "goddess",33,"",0,"",0
 "going",33,"",0,"",0
+"gregory",33,"",0,"",0
 "happily",33,"",0,"",0
-"hierom",33,"",0,"",0
 "illiterate",33,"",0,"",0
 "inferior",33,"inferior",30,"inferiors",3
 "instead",33,"",0,"",0
@@ -1542,6 +1540,7 @@
 "gout",32,"gout",27,"gouts",5
 "harsh",32,"",0,"",0
 "heaviness",32,"",0,"",0
+"hierom",32,"",0,"",0
 "inquit",32,"",0,"",0
 "lament",32,"lament",28,"laments",4
 "lean",32,"lean",31,"leans",1
@@ -1849,7 +1848,6 @@
 "alcibiades",26,"",0,"",0
 "ambitious",26,"",0,"",0
 "apart",26,"",0,"",0
-"bernard",26,"",0,"",0
 "blow",26,"blow",20,"blows",6
 "brute",26,"brute",18,"brutes",8
 "bugloss",26,"",0,"",0
@@ -1873,7 +1871,6 @@
 "hac",26,"",0,"",0
 "haven",26,"haven",13,"havens",13
 "headlong",26,"",0,"",0
-"hierome",26,"",0,"",0
 "higher",26,"",0,"",0
 "incurable",26,"",0,"",0
 "issue",26,"issue",12,"issues",14
@@ -1912,7 +1909,6 @@
 "aggravate",25,"aggravate",18,"aggravates",7
 "amorous",25,"",0,"",0
 "animus",25,"",0,"",0
-"anthony",25,"",0,"",0
 "attire",25,"attire",7,"attires",18
 "aurum",25,"",0,"",0
 "basil",25,"",0,"",0
@@ -1973,6 +1969,7 @@
 "areteus",24,"",0,"",0
 "aright",24,"",0,"",0
 "avoided",24,"",0,"",0
+"bernard",24,"",0,"",0
 "boethius",24,"",0,"",0
 "breed",24,"breed",17,"breeds",7
 "cardinal",24,"cardinal",13,"cardinals",11
@@ -2011,7 +2008,6 @@
 "mea",24,"mea",22,"meas",2
 "melancholia",24,"",0,"",0
 "metal",24,"metal",10,"metals",14
-"nicholas",24,"",0,"",0
 "observat",24,"",0,"",0
 "opus",24,"",0,"",0
 "plain",24,"plain",15,"plains",9
@@ -2163,11 +2159,11 @@
 "instar",22,"",0,"",0
 "irksome",22,"",0,"",0
 "lately",22,"",0,"",0
-"magnus",22,"",0,"",0
 "mat",22,"",0,"",0
 "maxime",22,"",0,"",0
 "monstrous",22,"",0,"",0
 "nati",22,"nati",18,"natis",4
+"nicholas",22,"",0,"",0
 "nine",22,"",0,"",0
 "north",22,"",0,"",0
 "pill",22,"pill",3,"pills",19
@@ -2187,6 +2183,7 @@
 "shop",22,"shop",13,"shops",9
 "sixth",22,"",0,"",0
 "solicitous",22,"",0,"",0
+"st",22,"",0,"",0
 "steal",22,"steal",19,"steals",3
 "stiffly",22,"",0,"",0
 "stulti",22,"stulti",17,"stultis",5
@@ -2248,6 +2245,7 @@
 "genius",21,"",0,"",0
 "grievously",21,"",0,"",0
 "heir",21,"heir",18,"heirs",3
+"hierome",21,"",0,"",0
 "hollow",21,"",0,"",0
 "hypochondries",21,"",0,"",0
 "imposture",21,"imposture",8,"impostures",13
@@ -2361,13 +2359,12 @@
 "gate",20,"gate",5,"gates",15
 "grieved",20,"",0,"",0
 "hazard",20,"hazard",16,"hazards",4
-"helen",20,"",0,"",0
 "hungry",20,"",0,"",0
 "idol",20,"idol",7,"idols",13
 "imitate",20,"imitate",19,"imitates",1
 "insania",20,"",0,"",0
+"magnus",20,"",0,"",0
 "mahometan",20,"mahometan",5,"mahometans",15
-"mark",20,"mark",19,"marks",1
 "mighty",20,"",0,"",0
 "mineral",20,"mineral",3,"minerals",17
 "mori",20,"",0,"",0
@@ -2429,6 +2426,7 @@
 "alterative",19,"alterative",3,"alteratives",16
 "amulet",19,"amulet",3,"amulets",16
 "annexed",19,"",0,"",0
+"anthony",19,"",0,"",0
 "apprehend",19,"apprehend",16,"apprehends",3
 "apprehension",19,"apprehension",16,"apprehensions",3
 "arrow",19,"arrow",7,"arrows",12
@@ -2480,6 +2478,7 @@
 "goat",19,"goat",15,"goats",4
 "greatness",19,"",0,"",0
 "hawking",19,"",0,"",0
+"helen",19,"",0,"",0
 "hero",19,"hero",15,"heros",4
 "hid",19,"",0,"",0
 "hominem",19,"",0,"",0
@@ -2753,7 +2752,6 @@
 "invent",17,"invent",16,"invents",1
 "invite",17,"invite",9,"invites",8
 "jo",17,"jo",16,"jos",1
-"junior",17,"junior",14,"juniors",3
 "laughing",17,"",0,"",0
 "lightning",17,"lightning",16,"lightnings",1
 "livy",17,"",0,"",0
@@ -2920,7 +2918,6 @@
 "ipsum",16,"",0,"",0
 "isle",16,"isle",6,"isles",10
 "jacobus",16,"",0,"",0
-"james",16,"",0,"",0
 "journey",16,"journey",10,"journeys",6
 "jove",16,"",0,"",0
 "lamb",16,"lamb",15,"lambs",1
@@ -2934,6 +2931,7 @@
 "longa",16,"longa",13,"longas",3
 "lovesick",16,"",0,"",0
 "magnifies",16,"",0,"",0
+"mark",16,"mark",15,"marks",1
 "mass",16,"",0,"",0
 "medium",16,"medium",15,"mediums",1
 "midriff",16,"",0,"",0
@@ -3012,7 +3010,6 @@
 "accuse",15,"",0,"",0
 "accustomed",15,"",0,"",0
 "affinity",15,"",0,"",0
-"ambrose",15,"",0,"",0
 "antidote",15,"antidote",12,"antidotes",3
 "apostate",15,"",0,"",0
 "applaud",15,"applaud",9,"applauds",6
@@ -3070,7 +3067,6 @@
 "fuerit",15,"",0,"",0
 "geniture",15,"geniture",11,"genitures",4
 "gentlewomen",15,"",0,"",0
-"george",15,"",0,"",0
 "grove",15,"grove",5,"groves",10
 "hated",15,"",0,"",0
 "heavenly",15,"",0,"",0
@@ -3234,7 +3230,6 @@
 "forsan",14,"",0,"",0
 "fortunae",14,"",0,"",0
 "forward",14,"",0,"",0
-"francis",14,"",0,"",0
 "gaming",14,"",0,"",0
 "grind",14,"grind",11,"grinds",3
 "guest",14,"guest",5,"guests",9
@@ -3259,6 +3254,7 @@
 "isaac",14,"",0,"",0
 "j",14,"",0,"",0
 "jacchinus",14,"",0,"",0
+"james",14,"",0,"",0
 "judicious",14,"",0,"",0
 "keeper",14,"keeper",7,"keepers",7
 "labyrinth",14,"labyrinth",12,"labyrinths",2
@@ -3683,9 +3679,11 @@
 "flea",12,"flea",8,"fleas",4
 "foeda",12,"",0,"",0
 "formae",12,"",0,"",0
+"francis",12,"",0,"",0
 "franciscus",12,"",0,"",0
 "galatea",12,"",0,"",0
 "galileo",12,"",0,"",0
+"george",12,"",0,"",0
 "gesner",12,"",0,"",0
 "gown",12,"gown",8,"gowns",4
 "grecian",12,"grecian",10,"grecians",2
@@ -3820,6 +3818,7 @@
 "spendthrift",12,"spendthrift",6,"spendthrifts",6
 "statim",12,"",0,"",0
 "statute",12,"statute",4,"statutes",8
+"St. Austin",12,"",0,"",0
 "stiff",12,"",0,"",0
 "stultitiae",12,"",0,"",0
 "stulto",12,"stulto",3,"stultos",9
@@ -4175,6 +4174,7 @@
 "amantes",10,"",0,"",0
 "ambassador",10,"ambassador",7,"ambassadors",3
 "ambo",10,"ambo",9,"ambos",1
+"ambrose",10,"",0,"",0
 "anabaptists",10,"",0,"",0
 "antimony",10,"",0,"",0
 "antonius",10,"",0,"",0
@@ -4310,6 +4310,7 @@
 "irreligious",10,"",0,"",0
 "joint",10,"joint",4,"joints",6
 "josephus",10,"",0,"",0
+"junior",10,"junior",7,"juniors",3
 "kindred",10,"",0,"",0
 "la",10,"la",9,"las",1
 "lare",10,"lare",2,"lares",8
@@ -4512,7 +4513,6 @@
 "chaplain",9,"chaplain",6,"chaplains",3
 "charon",9,"",0,"",0
 "chiefly",9,"",0,"",0
-"christopher",9,"",0,"",0
 "clean",9,"",0,"",0
 "cloak",9,"cloak",8,"cloaks",1
 "cogit",9,"",0,"",0
@@ -5105,7 +5105,6 @@
 "lashed",8,"",0,"",0
 "lesser",8,"",0,"",0
 "leve",8,"leve",2,"leves",6
-"lewis",8,"",0,"",0
 "liber",8,"",0,"",0
 "libidinem",8,"",0,"",0
 "lilies",8,"",0,"",0
@@ -5483,6 +5482,7 @@
 "cheap",7,"",0,"",0
 "chess",7,"",0,"",0
 "chimney",7,"chimney",5,"chimneys",2
+"christopher",7,"",0,"",0
 "chronic",7,"",0,"",0
 "cistern",7,"cistern",2,"cisterns",5
 "civit",7,"",0,"",0
@@ -5529,6 +5529,7 @@
 "delay",7,"delay",2,"delays",5
 "delectable",7,"",0,"",0
 "democriti",7,"democriti",6,"democritis",1
+"Democritus Junior",7,"",0,"",0
 "descent",7,"descent",4,"descents",3
 "descript",7,"",0,"",0
 "destructive",7,"",0,"",0
@@ -5700,6 +5701,7 @@
 "lawn",7,"lawn",2,"lawns",5
 "lemures",7,"",0,"",0
 "lessius",7,"",0,"",0
+"lewis",7,"",0,"",0
 "libanius",7,"",0,"",0
 "libel",7,"libel",1,"libels",6
 "libero",7,"libero",2,"liberos",5
@@ -5958,7 +5960,6 @@
 "using",7,"",0,"",0
 "utile",7,"",0,"",0
 "utop",7,"",0,"",0
-"valentine",7,"valentine",5,"valentines",2
 "vanities",7,"",0,"",0
 "variation",7,"variation",6,"variations",1
 "varii",7,"varii",2,"variis",5
@@ -6402,7 +6403,6 @@
 "marito",6,"marito",3,"maritos",3
 "marshes",6,"",0,"",0
 "martianus",6,"",0,"",0
-"martin",6,"",0,"",0
 "martyrdom",6,"martyrdom",5,"martyrdoms",1
 "masses",6,"",0,"",0
 "materiam",6,"",0,"",0
@@ -6609,7 +6609,6 @@
 "scarves",6,"",0,"",0
 "scoffed",6,"",0,"",0
 "seaside",6,"",0,"",0
-"sebastian",6,"",0,"",0
 "secreta",6,"",0,"",0
 "senectus",6,"",0,"",0
 "senseless",6,"",0,"",0
@@ -6649,14 +6648,17 @@
 "splenetic",6,"",0,"",0
 "spur",6,"",0,"",0
 "stale",6,"",0,"",0
+"St. Anthony",6,"",0,"",0
 "stare",6,"stare",3,"stares",3
 "steep",6,"",0,"",0
 "stercus",6,"",0,"",0
 "sterile",6,"sterile",3,"steriles",3
+"St. John",6,"",0,"",0
 "strangle",6,"strangle",3,"strangles",3
 "stratonice",6,"stratonice",5,"stratonices",1
 "strife",6,"",0,"",0
 "strongly",6,"",0,"",0
+"St. Thomas",6,"",0,"",0
 "stubborn",6,"",0,"",0
 "stultum",6,"",0,"",0
 "subdivide",6,"subdivide",4,"subdivides",2
@@ -6724,6 +6726,7 @@
 "uxori",6,"uxori",1,"uxoris",5
 "vagabond",6,"vagabond",1,"vagabonds",5
 "valde",6,"",0,"",0
+"valentine",6,"valentine",4,"valentines",2
 "valley",6,"valley",4,"valleys",2
 "valuable",6,"",0,"",0
 "variae",6,"",0,"",0
@@ -6737,7 +6740,6 @@
 "virgini",6,"virgini",2,"virginis",4
 "virginum",6,"",0,"",0
 "vitruvius",6,"",0,"",0
-"vitus",6,"",0,"",0
 "vixit",6,"",0,"",0
 "voluminous",6,"",0,"",0
 "vota",6,"",0,"",0
@@ -7389,6 +7391,7 @@
 "mariti",5,"",0,"",0
 "marius",5,"",0,"",0
 "marmore",5,"",0,"",0
+"martin",5,"",0,"",0
 "mathiolus",5,"",0,"",0
 "matilda",5,"",0,"",0
 "matrem",5,"",0,"",0
@@ -7671,6 +7674,7 @@
 "scribbling",5,"",0,"",0
 "searched",5,"",0,"",0
 "seasonable",5,"",0,"",0
+"sebastian",5,"",0,"",0
 "secondly",5,"",0,"",0
 "secretis",5,"",0,"",0
 "secundum",5,"",0,"",0
@@ -7725,10 +7729,12 @@
 "sponte",5,"",0,"",0
 "spoon",5,"spoon",2,"spoons",3
 "stake",5,"",0,"",0
+"St. Ambrose",5,"",0,"",0
 "statu",5,"statu",4,"status",1
 "stature",5,"",0,"",0
 "stayed",5,"",0,"",0
 "stealing",5,"",0,"",0
+"St. Hierome",5,"",0,"",0
 "stifle",5,"",0,"",0
 "stopping",5,"",0,"",0
 "stove",5,"stove",2,"stoves",3
@@ -7737,6 +7743,7 @@
 "structure",5,"structure",2,"structures",3
 "stuckius",5,"",0,"",0
 "sturdy",5,"",0,"",0
+"St. Vitus",5,"",0,"",0
 "suavia",5,"",0,"",0
 "suaviolum",5,"",0,"",0
 "subdued",5,"",0,"",0
@@ -8235,7 +8242,6 @@
 "deluge",4,"deluge",3,"deluges",1
 "dementiae",4,"",0,"",0
 "democritum",4,"",0,"",0
-"denis",4,"",0,"",0
 "denmark",4,"",0,"",0
 "depopulations",4,"",0,"",0
 "derision",4,"",0,"",0
@@ -8309,7 +8315,6 @@
 "ecclesiastical",4,"",0,"",0
 "echoes",4,"",0,"",0
 "ecstasy",4,"",0,"",0
-"edmund",4,"edmund",3,"edmunds",1
 "effectually",4,"",0,"",0
 "egestas",4,"",0,"",0
 "elegans",4,"",0,"",0
@@ -8518,7 +8523,6 @@
 "hesse",4,"",0,"",0
 "hezekiah",4,"",0,"",0
 "hieroglyphics",4,"",0,"",0
-"hilary",4,"",0,"",0
 "hire",4,"hire",3,"hires",1
 "hispania",4,"",0,"",0
 "hoary",4,"",0,"",0
@@ -8630,7 +8634,6 @@
 "july",4,"",0,"",0
 "junius",4,"",0,"",0
 "justify",4,"",0,"",0
-"justin",4,"",0,"",0
 "juv",4,"",0,"",0
 "juvenem",4,"",0,"",0
 "juventute",4,"",0,"",0
@@ -8931,7 +8934,6 @@
 "patitur",4,"",0,"",0
 "patiuntur",4,"",0,"",0
 "patriae",4,"",0,"",0
-"patrick",4,"",0,"",0
 "paulina",4,"",0,"",0
 "pawn",4,"pawn",2,"pawns",2
 "peaceable",4,"",0,"",0
@@ -9211,7 +9213,6 @@
 "solicitude",4,"",0,"",0
 "solinus",4,"",0,"",0
 "sonnet",4,"sonnet",2,"sonnets",2
-"sophia",4,"",0,"",0
 "sorcerers",4,"",0,"",0
 "sordes",4,"",0,"",0
 "sordida",4,"sordida",3,"sordidas",1
@@ -9241,13 +9242,16 @@
 "statua",4,"statua",2,"statuas",2
 "statuae",4,"",0,"",0
 "stave",4,"stave",3,"staves",1
+"St. Denis",4,"",0,"",0
 "steadily",4,"",0,"",0
 "steer",4,"steer",2,"steers",2
 "stellis",4,"",0,"",0
 "stercore",4,"",0,"",0
 "sterili",4,"sterili",1,"sterilis",3
+"St. Mark",4,"",0,"",0
 "stobeus",4,"",0,"",0
 "storks",4,"",0,"",0
+"St. Paul",4,"",0,"",0
 "strangely",4,"",0,"",0
 "strangled",4,"",0,"",0
 "stretch",4,"",0,"",0
@@ -9669,7 +9673,6 @@
 "below",3,"",0,"",0
 "belus",3,"",0,"",0
 "bending",3,"",0,"",0
-"benedict",3,"",0,"",0
 "beneficial",3,"",0,"",0
 "beneficio",3,"",0,"",0
 "beneficium",3,"",0,"",0
@@ -9782,7 +9785,6 @@
 "catart",3,"",0,"",0
 "catastrophe",3,"",0,"",0
 "catena",3,"",0,"",0
-"catherine",3,"",0,"",0
 "caught",3,"",0,"",0
 "cautery",3,"",0,"",0
 "cautious",3,"",0,"",0
@@ -10144,6 +10146,7 @@
 "ecce",3,"",0,"",0
 "ecstasies",3,"",0,"",0
 "edged",3,"",0,"",0
+"edmund",3,"edmund",2,"edmunds",1
 "effectual",3,"",0,"",0
 "effectus",3,"",0,"",0
 "egomet",3,"",0,"",0
@@ -10617,6 +10620,7 @@
 "jurare",3,"jurare",2,"jurares",1
 "jussa",3,"",0,"",0
 "juste",3,"",0,"",0
+"justin",3,"",0,"",0
 "justina",3,"",0,"",0
 "justinian",3,"",0,"",0
 "justo",3,"",0,"",0
@@ -10999,7 +11003,6 @@
 "overseen",3,"",0,"",0
 "overthrew",3,"",0,"",0
 "overwhelm",3,"overwhelm",2,"overwhelms",1
-"owen",3,"",0,"",0
 "owner",3,"owner",2,"owners",1
 "pageant",3,"pageant",1,"pageants",2
 "palam",3,"",0,"",0
@@ -11348,7 +11351,6 @@
 "robin",3,"",0,"",0
 "rog",3,"",0,"",0
 "romanum",3,"",0,"",0
-"romanus",3,"",0,"",0
 "romish",3,"",0,"",0
 "rosamond",3,"",0,"",0
 "rosicrucian",3,"rosicrucian",1,"rosicrucians",2
@@ -11521,6 +11523,7 @@
 "somniis",3,"",0,"",0
 "sonus",3,"",0,"",0
 "sop",3,"",0,"",0
+"sophia",3,"",0,"",0
 "sophies",3,"",0,"",0
 "sordibus",3,"",0,"",0
 "sors",3,"",0,"",0
@@ -11558,6 +11561,8 @@
 "stephan",3,"",0,"",0
 "stephanus",3,"",0,"",0
 "stetit",3,"",0,"",0
+"St. George",3,"",0,"",0
+"St. Hilary",3,"",0,"",0
 "stigmatised",3,"",0,"",0
 "stinging",3,"",0,"",0
 "stipend",3,"",0,"",0
@@ -11762,7 +11767,6 @@
 "unsound",3,"",0,"",0
 "untilled",3,"",0,"",0
 "upshot",3,"",0,"",0
-"ursula",3,"",0,"",0
 "uteri",3,"",0,"",0
 "utero",3,"",0,"",0
 "utraque",3,"",0,"",0
@@ -12060,7 +12064,6 @@
 "alantur",2,"",0,"",0
 "alarms",2,"",0,"",0
 "albania",2,"",0,"",0
-"albans",2,"",0,"",0
 "albubater",2,"",0,"",0
 "alciat",2,"",0,"",0
 "alcmena",2,"",0,"",0
@@ -12151,7 +12154,6 @@
 "animata",2,"",0,"",0
 "animumque",2,"",0,"",0
 "anna",2,"",0,"",0
-"anne",2,"",0,"",0
 "annorum",2,"",0,"",0
 "annua",2,"",0,"",0
 "annue",2,"",0,"",0
@@ -12332,7 +12334,6 @@
 "authori",2,"authori",1,"authoris",1
 "autiloquus",2,"",0,"",0
 "availeth",2,"",0,"",0
-"avan",2,"",0,"",0
 "avaritiae",2,"",0,"",0
 "avaros",2,"",0,"",0
 "avarus",2,"",0,"",0
@@ -12401,6 +12402,7 @@
 "bemster",2,"",0,"",0
 "bench",2,"",0,"",0
 "bended",2,"",0,"",0
+"benedict",2,"",0,"",0
 "benedicta",2,"",0,"",0
 "beneditto",2,"",0,"",0
 "beneficia",2,"",0,"",0
@@ -12631,6 +12633,7 @@
 "caterwaul",2,"caterwaul",1,"caterwauls",1
 "cathedra",2,"",0,"",0
 "cathedral",2,"",0,"",0
+"catherine",2,"",0,"",0
 "caul",2,"",0,"",0
 "cauponantes",2,"",0,"",0
 "caussinus",2,"",0,"",0
@@ -14090,7 +14093,6 @@
 "hungarians",2,"",0,"",0
 "huns",2,"",0,"",0
 "hunted",2,"",0,"",0
-"huon",2,"",0,"",0
 "husbanded",2,"",0,"",0
 "hush",2,"",0,"",0
 "huter",2,"",0,"",0
@@ -15209,6 +15211,7 @@
 "overweening",2,"",0,"",0
 "ovis",2,"",0,"",0
 "ovum",2,"",0,"",0
+"owen",2,"",0,"",0
 "oxus",2,"",0,"",0
 "oxymel",2,"",0,"",0
 "pabula",2,"",0,"",0
@@ -15280,6 +15283,7 @@
 "patrem",2,"",0,"",0
 "patriam",2,"",0,"",0
 "patribus",2,"",0,"",0
+"patrick",2,"",0,"",0
 "patroness",2,"",0,"",0
 "patroni",2,"patroni",1,"patronis",1
 "patronise",2,"",0,"",0
@@ -15899,6 +15903,7 @@
 "romam",2,"",0,"",0
 "romano",2,"romano",1,"romanos",1
 "romanorum",2,"",0,"",0
+"romanus",2,"",0,"",0
 "romney",2,"",0,"",0
 "roofed",2,"",0,"",0
 "ros",2,"",0,"",0
@@ -16287,6 +16292,7 @@
 "staggering",2,"",0,"",0
 "stagni",2,"stagni",1,"stagnis",1
 "stain",2,"",0,"",0
+"St. Albans",2,"",0,"",0
 "stall",2,"",0,"",0
 "stallion",2,"stallion",1,"stallions",1
 "stamped",2,"",0,"",0
@@ -16301,6 +16307,8 @@
 "statque",2,"",0,"",0
 "statuam",2,"",0,"",0
 "statum",2,"",0,"",0
+"St. Bernard",2,"",0,"",0
+"St. Christopher",2,"",0,"",0
 "stealth",2,"",0,"",0
 "steel",2,"",0,"",0
 "stegius",2,"",0,"",0
@@ -16311,17 +16319,22 @@
 "sterquilinium",2,"",0,"",0
 "stesichorus",2,"",0,"",0
 "stet",2,"",0,"",0
+"St. Francis",2,"",0,"",0
 "stibium",2,"",0,"",0
 "stifled",2,"",0,"",0
 "stili",2,"",0,"",0
 "stimuli",2,"stimuli",1,"stimulis",1
 "stirrup",2,"",0,"",0
+"St. James",2,"",0,"",0
+"St. Magnus",2,"",0,"",0
+"St. Nicholas",2,"",0,"",0
 "stockerus",2,"",0,"",0
 "stoical",2,"",0,"",0
 "stoicorum",2,"",0,"",0
 "stomachum",2,"",0,"",0
 "stormy",2,"",0,"",0
 "stout",2,"",0,"",0
+"St. Patrick",2,"",0,"",0
 "stramineous",2,"",0,"",0
 "strangulat",2,"",0,"",0
 "strangury",2,"",0,"",0
@@ -16733,6 +16746,7 @@
 "urgently",2,"",0,"",0
 "uritur",2,"",0,"",0
 "urnam",2,"",0,"",0
+"ursula",2,"",0,"",0
 "useful",2,"",0,"",0
 "usher",2,"",0,"",0
 "usquam",2,"",0,"",0
@@ -18054,6 +18068,7 @@
 "annalibus",1,"",0,"",0
 "annalium",1,"",0,"",0
 "annat",1,"",0,"",0
+"anne",1,"",0,"",0
 "annectitur",1,"",0,"",0
 "annianus",1,"",0,"",0
 "annique",1,"",0,"",0
@@ -18683,6 +18698,7 @@
 "auxiliis",1,"",0,"",0
 "availed",1,"",0,"",0
 "availing",1,"",0,"",0
+"avan",1,"",0,"",0
 "avaritice",1,"",0,"",0
 "avaunt",1,"",0,"",0
 "avemarias",1,"",0,"",0
@@ -18836,7 +18852,6 @@
 "baverus",1,"",0,"",0
 "bavius",1,"",0,"",0
 "bawls",1,"",0,"",0
-"bawne",1,"",0,"",0
 "bayle",1,"",0,"",0
 "beant",1,"",0,"",0
 "bearded",1,"",0,"",0
@@ -19944,7 +19959,6 @@
 "circumvenit",1,"",0,"",0
 "circumventing",1,"",0,"",0
 "circundare",1,"",0,"",0
-"ciricius",1,"",0,"",0
 "cirknickzerksey",1,"",0,"",0
 "cisalpinus",1,"",0,"",0
 "cit",1,"",0,"",0
@@ -22523,7 +22537,6 @@
 "ellebori",1,"",0,"",0
 "elludit",1,"",0,"",0
 "elme",1,"",0,"",0
-"elmo",1,"",0,"",0
 "elnor",1,"",0,"",0
 "elogium",1,"",0,"",0
 "elongatio",1,"",0,"",0
@@ -24680,6 +24693,7 @@
 "hilaritas",1,"",0,"",0
 "hilaritatem",1,"",0,"",0
 "hilaritatis",1,"",0,"",0
+"hilary",1,"",0,"",0
 "hilbertus",1,"",0,"",0
 "hildebrand",1,"",0,"",0
 "hildishemo",1,"",0,"",0
@@ -24839,6 +24853,7 @@
 "hungar",1,"",0,"",0
 "hungaros",1,"",0,"",0
 "huntsmen",1,"",0,"",0
+"huon",1,"",0,"",0
 "hurled",1,"",0,"",0
 "hurling",1,"",0,"",0
 "hurly",1,"",0,"",0
@@ -27135,7 +27150,6 @@
 "marem",1,"",0,"",0
 "margareta",1,"",0,"",0
 "margin",1,"",0,"",0
-"marie",1,"",0,"",0
 "marinam",1,"",0,"",0
 "marini",1,"",0,"",0
 "mariola",1,"",0,"",0
@@ -27219,7 +27233,6 @@
 "matutino",1,"",0,"",0
 "maugre",1,"",0,"",0
 "maundering",1,"",0,"",0
-"maures",1,"",0,"",0
 "mauritius",1,"",0,"",0
 "maurolieus",1,"",0,"",0
 "mauros",1,"",0,"",0
@@ -29482,7 +29495,6 @@
 "pherousai",1,"",0,"",0
 "phialis",1,"",0,"",0
 "philadelphus",1,"",0,"",0
-"philanus",1,"",0,"",0
 "philarguria",1,"",0,"",0
 "philargurian",1,"",0,"",0
 "philauti",1,"",0,"",0
@@ -32587,6 +32599,7 @@
 "stamus",1,"",0,"",0
 "standest",1,"",0,"",0
 "stanihurst",1,"",0,"",0
+"St. Anne",1,"",0,"",0
 "stans",1,"",0,"",0
 "stante",1,"",0,"",0
 "stantesque",1,"",0,"",0
@@ -32610,15 +32623,22 @@
 "statuit",1,"",0,"",0
 "statuitur",1,"",0,"",0
 "staturam",1,"",0,"",0
+"St. Avan",1,"",0,"",0
+"St. Bawne",1,"",0,"",0
+"St. Benedict",1,"",0,"",0
+"St. Catherine",1,"",0,"",0
+"St. Ciricius",1,"",0,"",0
 "stead",1,"",0,"",0
 "steadfastness",1,"",0,"",0
 "stealer",1,"",0,"",0
 "steckius",1,"",0,"",0
+"St. Edmund",1,"",0,"",0
 "steepness",1,"",0,"",0
 "steevens",1,"",0,"",0
 "stellae",1,"",0,"",0
 "stellans",1,"",0,"",0
 "stellarum",1,"",0,"",0
+"St. Elmo",1,"",0,"",0
 "stemmata",1,"",0,"",0
 "stemmate",1,"",0,"",0
 "stenography",1,"",0,"",0
@@ -32643,8 +32663,12 @@
 "sterquiliniis",1,"",0,"",0
 "stertebat",1,"",0,"",0
 "stetein",1,"",0,"",0
+"St. Gregory",1,"",0,"",0
+"St. Helen",1,"",0,"",0
 "sthenelejus",1,"",0,"",0
 "sthenobia",1,"",0,"",0
+"St. Hierom",1,"",0,"",0
+"St. Huon",1,"",0,"",0
 "sticking",1,"",0,"",0
 "stiffening",1,"",0,"",0
 "stiffest",1,"",0,"",0
@@ -32666,6 +32690,11 @@
 "stirps",1,"",0,"",0
 "stirreth",1,"",0,"",0
 "stivam",1,"",0,"",0
+"St. Justin",1,"",0,"",0
+"St. Lewis",1,"",0,"",0
+"St. Marie",1,"",0,"",0
+"St. Martin",1,"",0,"",0
+"St. Maures",1,"",0,"",0
 "stobaeum",1,"",0,"",0
 "stockholm",1,"",0,"",0
 "stockings",1,"",0,"",0
@@ -32695,6 +32724,8 @@
 "stored",1,"",0,"",0
 "storehouse",1,"",0,"",0
 "stour",1,"",0,"",0
+"St. Owen",1,"",0,"",0
+"St. Philanus",1,"",0,"",0
 "strada",1,"",0,"",0
 "strade",1,"",0,"",0
 "strage",1,"",0,"",0
@@ -32728,6 +32759,7 @@
 "stripping",1,"",0,"",0
 "strode",1,"",0,"",0
 "stroking",1,"",0,"",0
+"St. Romanus",1,"",0,"",0
 "strophae",1,"",0,"",0
 "strove",1,"",0,"",0
 "stroz",1,"",0,"",0
@@ -32740,6 +32772,9 @@
 "struunt",1,"",0,"",0
 "struxit",1,"",0,"",0
 "stryges",1,"",0,"",0
+"St. Sebastian",1,"",0,"",0
+"St. Sophia",1,"",0,"",0
+"St. Tubery",1,"",0,"",0
 "stubbornly",1,"",0,"",0
 "stubbornness",1,"",0,"",0
 "stucchius",1,"",0,"",0
@@ -32770,9 +32805,13 @@
 "stupra",1,"",0,"",0
 "stuprarit",1,"",0,"",0
 "sturgeon",1,"",0,"",0
+"St. Ursula",1,"",0,"",0
 "stut",1,"",0,"",0
 "stuttering",1,"",0,"",0
 "stutting",1,"",0,"",0
+"St. Valentine",1,"",0,"",0
+"St. Wilfrid",1,"",0,"",0
+"St. Winifred",1,"",0,"",0
 "sty",1,"",0,"",0
 "stygia",1,"",0,"",0
 "stygiae",1,"",0,"",0
@@ -33795,7 +33834,6 @@
 "tuamque",1,"",0,"",0
 "tub",1,"",0,"",0
 "tubera",1,"",0,"",0
-"tubery",1,"",0,"",0
 "tubing",1,"",0,"",0
 "tucatur",1,"",0,"",0
 "tudor",1,"",0,"",0
@@ -34594,6 +34632,7 @@
 "vituperari",1,"",0,"",0
 "vituperationem",1,"",0,"",0
 "vituperes",1,"",0,"",0
+"vitus",1,"",0,"",0
 "vivaces",1,"",0,"",0
 "vivacitas",1,"",0,"",0
 "vivant",1,"",0,"",0
@@ -34805,14 +34844,12 @@
 "widower",1,"",0,"",0
 "wildest",1,"",0,"",0
 "wiles",1,"",0,"",0
-"wilfrid",1,"",0,"",0
 "willmi",1,"",0,"",0
 "willows",1,"",0,"",0
 "wiltshire",1,"",0,"",0
 "wimples",1,"",0,"",0
 "wince",1,"",0,"",0
 "windsor",1,"",0,"",0
-"winifred",1,"",0,"",0
 "winking",1,"",0,"",0
 "winnest",1,"",0,"",0
 "wintered",1,"",0,"",0
