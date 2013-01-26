@@ -84,7 +84,10 @@ void draw() {
       
   for (int i = 0; i < num.length; i++) {
     
-    fill(0, min(maxAlpha, (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha));
+    float alph= (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha;
+    if (minAlpha < maxAlpha) alph = maxAlpha - alph;
+    
+    fill(0, alph);
 
     if (num[i] <= CaptionSize) {
       textFont(fontCaption, num[i]);

@@ -2,8 +2,10 @@ int drawCircles(float dist, int number, float centre_x, float centre_y, boolean 
   int sum = 0; 
   for (int i = 1; i <= number; i++) {
     int force = 0; 
-    if (i > number - 5 && i < number) force = round((words.length - sum) / 5); 
-    sum += drawCircle(dist, dist*i, centre_x, centre_y, draw, subset(words, sum, words.length-sum), subset(num,sum, num.length-sum), force);
+    if (i > number - 5 && i < number) force = round((words.length - sum) / (number - i + 1)); 
+    int wordNum = drawCircle(dist, dist*i, centre_x, centre_y, draw, subset(words, sum, words.length-sum), subset(num,sum, num.length-sum), force);
+    sum += wordNum;
+    println("circle " + i + ": " + wordNum + " words");
   }
   return(sum);
 }
@@ -15,7 +17,12 @@ int drawCircle(float dist, float r, float centre_x, float centre_y, boolean draw
   if (draw) {
     for  (int i = 0; i < number; i++) {
       
-    fill(0, min(maxAlpha, (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha));
+         float alph= (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha;
+    if (minAlpha < maxAlpha) alph = maxAlpha - alph;
+    
+    fill(0, alph);
+      
+    //fill(0, min(maxAlpha, (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha));
 
     if (num[i] <= CaptionSize) {
       textFont(fontCaption, num[i]);
