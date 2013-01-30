@@ -17,8 +17,9 @@ float spindulys = aukstis / 2 - parastes;
 float numi;
 int[] strLength;
 
-void setup() 
-{  
+void setup() {
+  noiseSeed(noiseSeed);
+  randomSeed(randomSeed);
   hint(ENABLE_NATIVE_FONTS);
   size(int(round(plotis)), int(round(aukstis)), PDF, pavadinimas);
   background(255);
@@ -35,7 +36,7 @@ void setup()
   numSpalva = new float[l]; 
   words = new String[l];
   strLength = new int[l];
-
+  colorMode(HSB, 360, 100, 100, 255);
   textAlign(CENTER);
 
   for (int i = 1; i <= l; i++) {
@@ -58,47 +59,50 @@ void setup()
 //  println("zodis  |  nuskaitytas dydis  |  perskaiciuotas dydis");
 
   for (int i = 0; i < num.length; i++) {  
-//    if (verbose) print(words[i] + "   |   " + numOrig[i] + "   |    ");
-//    String.format("%-20s %-2s","Hello World", ":")
 //    if (verbose) print(String.format("%-30s %-5s", words[i], int(numOrig[i])) + "            ");
     if (verbose) print(words[i] + "  " + int(numOrig[i]) + "  ");
     
-    switch(round(numOrig[i])) {
-      case 1:
-        if (size1min!=0) num[i] = random(size1min, size1max);
-        break;
-      case 2:
-        if (size2min!=0) num[i] = random(size2min, size2max);
-        break;
-      case 3:
-        if (size3min!=0) num[i] = random(size3min, size3max);
-        break;
-      case 4:
-        if (size4min!=0) num[i] = random(size4min, size4max);
-        break;
-      case 5:
-        if (size5min!=0) num[i] = random(size5min, size5max);
-        break;
-      case 6:
-        if (size6min!=0) num[i] = random(size6min, size6max);
-        break;
-      case 7:
-        if (size7min!=0) num[i] = random(size7min, size7max);
-        break;
-      case 8:
-        if (size8min!=0) num[i] = random(size8min, size8max);
-        break;
-      case 9:
-        if (size9min!=0) num[i] = random(size9min, size9max);
-        break;
-      case 10:
-        if (size10min!=0) num[i] = random(size10min, size10max);
-        break;
-      default:
-        numi = (num[i] - numMin) / ( numMax - numMin ) * (fontMax - fontMin) + fontMin; 
-        num[i] = max(numi, size10max);
-        break;
+    if (manual) {
+      switch(round(numOrig[i])) {
+        case 1:
+          if (size1min!=0) num[i] = random(size1min, size1max);
+          break;
+        case 2:
+          if (size2min!=0) num[i] = random(size2min, size2max);
+          break;
+        case 3:
+          if (size3min!=0) num[i] = random(size3min, size3max);
+          break;
+        case 4:
+          if (size4min!=0) num[i] = random(size4min, size4max);
+          break;
+        case 5:
+          if (size5min!=0) num[i] = random(size5min, size5max);
+          break;
+        case 6:
+          if (size6min!=0) num[i] = random(size6min, size6max);
+          break;
+        case 7:
+          if (size7min!=0) num[i] = random(size7min, size7max);
+          break;
+        case 8:
+          if (size8min!=0) num[i] = random(size8min, size8max);
+          break;
+        case 9:
+          if (size9min!=0) num[i] = random(size9min, size9max);
+          break;
+        case 10:
+          if (size10min!=0) num[i] = random(size10min, size10max);
+          break;
+        default:
+          numi = (num[i] - numMin) / ( numMax - numMin ) * (fontMax - fontMin) + fontMin; 
+          num[i] = max(numi, size10max);
+          break;
+      }
+    } else {
+      num[i] = (num[i] - numMin) / ( numMax - numMin ) * (fontMax - fontMin) + fontMin; 
     }
+        
     if (verbose) print(nfs(num[i], 0, 3) + ";  ");
     
     numSpalva[i] = numSpalva[i] - numSMin; 

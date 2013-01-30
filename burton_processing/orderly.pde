@@ -17,25 +17,32 @@ int drawCircle(float dist, float r, float centre_x, float centre_y, boolean draw
   if (draw) {
     for  (int i = 0; i < number; i++) {
       
-         float alph= (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha;
-    if (minAlpha < maxAlpha) alph = maxAlpha - alph;
+      float x = sin(angle*i)*r + centre_x + random(triuksmas)-triuksmas/2; 
+      float y = cos(angle*i)*r + centre_y + random(triuksmas)-triuksmas/2;
+//      if (maziRyskiau) {
+//        float alph= (fontMax - num[i]) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha;
+//      } else {
+//        float alph= (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha;
+//      }
+      float alph = maziRyskiau ? fontMax - num[i] : num[i] - fontMin;
+      alph = alph / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha;
     
-    fill(0, alph);
-      
-    //fill(0, min(maxAlpha, (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha));
+      float col = noise(x*noiseScale, y*noiseScale) * (hueMax - hueMin) + hueMin;
+      println(alph); 
+      fill(col, saturation, brightness, alph);
+      //fill(0, min(maxAlpha, (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha));
 
-    if (num[i] <= CaptionSize) {
-      textFont(fontCaption, num[i]);
-    } else if (num[i] <= SmTextSize) {
-      textFont(fontSmText, num[i]);
-    } else if (num[i] <= RegularSize) {
-      textFont(fontRegular, num[i]);
-    } else if (num[i] <= SubHeadSize) {
-      textFont(fontSubHead, num[i]);
-    } else textFont(fontRegular, num[i]); 
+      if (num[i] <= CaptionSize) {
+        textFont(fontCaption, num[i]);
+      } else if (num[i] <= SmTextSize) {
+        textFont(fontSmText, num[i]);
+      } else if (num[i] <= RegularSize) {
+        textFont(fontRegular, num[i]);
+      } else if (num[i] <= SubHeadSize) {
+        textFont(fontSubHead, num[i]);
+      } else textFont(fontRegular, num[i]); 
       
-      text(words[i], sin(angle*i)*r + centre_x + random(triuksmas)-triuksmas/2, 
-            cos(angle*i)*r + centre_y + random(triuksmas)-triuksmas/2);
+      text(words[i], x, y);
     }  
   }
   return(number);
