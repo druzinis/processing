@@ -36,7 +36,7 @@ void setup() {
   numSpalva = new float[l]; 
   words = new String[l];
   strLength = new int[l];
-  colorMode(HSB, 360, 100, 100, 255);
+  if (colorMode == 'H') colorMode(HSB);
   textAlign(CENTER);
 
   for (int i = 1; i <= l; i++) {
