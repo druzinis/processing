@@ -5,7 +5,7 @@ int drawCircles(float dist, int number, float centre_x, float centre_y, boolean 
     if (i > number - 5 && i < number) force = round((words.length - sum) / (number - i + 1)); 
     int wordNum = drawCircle(dist, dist*i, centre_x, centre_y, draw, subset(words, sum, words.length-sum), subset(num,sum, num.length-sum), force);
     sum += wordNum;
-    println("circle " + i + ": " + wordNum + " words");
+    if(draw) println("circle " + i + ": " + wordNum + " words");
   }
   return(sum);
 }

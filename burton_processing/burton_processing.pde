@@ -23,12 +23,12 @@ float triuksmas = 1 / 2.54 * 72;
 boolean pieskRate = true;
 
 // Šriftai             
-int fontMin = 5, fontMax = 100; 
+int fontMin = 50, fontMax = 100; 
 int minAlpha = 255; 
 /* nustato mažiausią teksto ryškumą
  0 - visiškai permatomas
  255 - nepermatomas */
-int maxAlpha = 155;
+int maxAlpha = 100;
 
 float CaptionSize = 8.5; // nustato tikslų maksimalų 
                          // dydį šitam šriftui
@@ -45,9 +45,24 @@ String SubHeadFont = "ArnoPro-Regular";
 
 String DisplayFont = "ArnoPro-Regular";
 
+// Manual fontsizes
+// jei sizeXmin=0, bys pritaikoma standartine transformacija;
+// visi dydziai nustatomi ne mazesni nei size10max. 
+
+float size1min = 1.5, size1max = 1.5;
+float size2min = 3, size2max = 3;
+float size3min = 3, size3max = 4;
+float size4min = 4, size4max = 5;
+float size5min = 5, size5max = 6;
+float size6min = 7, size6max = 8.5;
+float size7min = 9, size7max = 12;
+float size8min = 12, size8max = 14;
+float size9min = 14, size9max = 15;
+float size10min = 15, size10max = 18;
+
 // Input/Output
 String duomenys =  "burton_all.txt";
-String pavadinimas = "Burton_118x118_2-100pt_10px_0-2_25-200alpha_variantas1.pdf";
+String pavadinimas = "Burton_118x118_2-100pt_10px_0-2_25-200alpha_variantas1 bla.pdf";
 
 // Rėmukas
 int remelioSpalva = 200; 
@@ -56,4 +71,4 @@ float remelioParaste = 1 / 2.54 * 72;
 
 // Profilaktika (ar spausdinti info i konsole?)
 boolean verbose = true; 
-int kiekZodziu = 500;
+int kiekZodziu = 250;
