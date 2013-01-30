@@ -33,10 +33,10 @@ int drawCircle(float dist, float r, float centre_x, float centre_y, boolean draw
           fill(col, saturation, brightness, alph);
           break;
         case 'L':
-          fill(lerpColor(from, to, noise(x*noiseScale, y*noiseScale)));
+          fill(lerpColor(from, to, noise(x*noiseScale, y*noiseScale)), alph);
           break;
         default:
-          fill(0, min(maxAlpha, (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha));
+          fill(0, alph);
           break;
       }
       
