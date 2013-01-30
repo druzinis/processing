@@ -26,11 +26,20 @@ int drawCircle(float dist, float r, float centre_x, float centre_y, boolean draw
 //      }
       float alph = maziRyskiau ? fontMax - num[i] : num[i] - fontMin;
       alph = alph / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha;
-    
-      float col = noise(x*noiseScale, y*noiseScale) * (hueMax - hueMin) + hueMin;
-      println(alph); 
-      fill(col, saturation, brightness, alph);
-      //fill(0, min(maxAlpha, (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha));
+      
+      switch(colorMode) {
+        case 'H':
+          float col = noise(x*noiseScale, y*noiseScale) * (hueMax - hueMin) + hueMin;
+          fill(col, saturation, brightness, alph);
+          break;
+        case 'L':
+          fill(lerpColor(from, to, noise(x*noiseScale, y*noiseScale)));
+          break;
+        default:
+          fill(0, min(maxAlpha, (num[i] - fontMin) / (fontMax - fontMin) * (maxAlpha - minAlpha) + minAlpha));
+          break;
+      }
+      
 
       if (num[i] <= CaptionSize) {
         textFont(fontCaption, num[i]);

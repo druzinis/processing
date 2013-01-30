@@ -24,10 +24,15 @@ float noiseScale = .001; // spalvoms
 int noiseSeed = 10101; // spalvoms
 
 // Spalvu variacija
+char colorMode = 'L'; // "H" for HSB, "L" for Linear interpolation; otherwise, monochrome (black)
 // HSB colorspace
 float hueMin = 1, hueMax = 360; // nuo 0 iki 360
 float saturation = 100; // 0 - 100
 float brightness = 100 ; // 0 - 100
+
+// Linear interpolation
+color from = color(204, 102, 0);
+color to = color(0, 102, 153);
 
 // Rate?
 boolean pieskRate = true;
